@@ -1,0 +1,137 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\x64\Debug\kernel.cu.obj "C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu" 
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(87): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(93): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(99): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(105): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(111): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(117): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(123): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(129): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(135): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(141): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(147): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(153): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(87): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(93): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(99): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(105): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(111): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(117): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(123): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(129): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(135): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(141): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(147): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(153): warning #546-D: transfer of control bypasses initialization of:
+              variable "num_blocks" (declared at line 156)
+            goto Error;
+            ^
+  
+  kernel.cu
+  tmpxft_00002f54_00000000-7_kernel.cudafe1.cpp
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(156): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(157): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(164): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(171): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(179): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(186): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\aklei\source\repos\Cuda_test_project\Cuda_test_project\kernel.cu(194): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Cuda_test_project.vcxproj -> C:\Users\aklei\source\repos\Cuda_test_project\x64\Debug\Cuda_test_project.exe
